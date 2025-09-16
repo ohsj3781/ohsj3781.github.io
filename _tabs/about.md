@@ -14,7 +14,7 @@ Email: ohsj3781@gmail.com
 - 한국어
     - 모국어
 - 영어
-    - OPIc IH(Intermediate High) 취득
+    - OPIc IH(Intermediate High)
         - 2025.07
 
 ## Educations
