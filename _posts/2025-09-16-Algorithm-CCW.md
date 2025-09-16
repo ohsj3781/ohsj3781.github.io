@@ -9,10 +9,10 @@ math: true
 > 위키피디아의 [Cross product](https://en.wikipedia.org/wiki/Cross_product#Computational_geometry)글과 MS의 [3-D Coordinate Systems](https://learn.microsoft.com/ko-kr/previous-versions/windows/desktop/bb324490(v=vs.85))를 참고하여 작성하였습니다.
 
 ## CCW(Counter Clock Wise)
-CCW 즉 Counter Clock Wise 알고리즘은 외적(Cross Product)의 원리를 이용하여, 임의의 3점이 이루는 방향을 판단 하는 알고리즘 이다.
+CCW, 즉 Counter Clock Wise 알고리즘은 외적(Cross Product)의 원리를 이용하여, 임의의 3점이 이루는 방향을 판단 하는 알고리즘 이다.
 
 ## 원리
-위키피디아의 Cross Product글 에서 Applications중 Computational geometry의 일부분을 발췌해 왔다.
+위키피디아의 Cross Product글에서 Applications중 Computational geometry의 일부분을 발췌해 왔다.
 
 In computational geometry of the plane, **the cross product is used to determine the sign of the acute angle defined by three points
 $$\boldsymbol {p_{1}=(x_{1},y_{1}),p_{2}=(x_{2},y_{2})} $$ and 
@@ -35,15 +35,15 @@ $$ p_{3} $$ lies to the left or to the right of line
 $$ p_{1},p_{2}. $$
 
 이와 같이 설명이 되어있다.<br>
-결국 우리가 사용 하는 것은 Cross Product의 Sign을 이용하여, p3의 위치가 p1과 p2가 이루는 직선의 좌측에 있나, 우측에 있나를 판별 하는 것이다.
+결국 우리가 사용하는 것은 Cross Product의 Sign을 이용하여, p3의 위치가 p1과 p2가 이루는 직선의 좌측에 있나, 우측에 있나를 판별하는 것이다.
 
-하지만 위의 글을 보면 **"right-handed" cordinate system**에 서만 적용 된다 쓰여있다. 그럼으로, **right-handed와 left-handed cordinate system**에 대하여 구분을 해주어야 한다.
+하지만 위의 글을 보면 **"right-handed" cordinate system**에서만 적용 된다 쓰여있다. 그럼으로, **right-handed와 left-handed cordinate system**에 대하여 구분을 해주어야 한다.
 
 ## Left-handed, Right-handed Cordinate System
 ![](assets/img/posts/2025-09-16-Algorithm-CCW-01.png)
 _left-hadned and Right-handed Cordinate System_
 
-해당 그림이 보여주는대로 Left-handed Cordiante System과 Right-handed Cordinate System과의 차이는 z축의 방향이 어디를 향하고 있는가로 나누어 지게 된다. 그럼으로 CCW알고리즘의 결과를 해석하는 뱡향도 달라지게 된다.<br>
+해당 그림이 보여주는대로 Left-handed Cordiante System과 Right-handed Cordinate System과의 차이는 z축의 방향이 어디를 향하고 있는가로 나누어지게 된다. 그럼으로 CCW알고리즘의 결과를 해석하는 뱡향도 달라지게 된다.<br>
 Left-handed Cordinate System 기준으로 결과값이 음수라면, p1과 p2가 이루는 직선의 좌측에 p3가 있고, 결과값이 양수라면 p3가 직선의 우측에 있고, 결과값이 0 이면, p3가 직선 위에 있다.
 
 Right-handed Cordinate System은 이와 반대로, 결과값이 음수라면 p3가 직선의 우측에 있고, 결과값이 양수라면 p3가 직선의 좌측에 있고, 결과값이 0 이면, p3가 직선 위에 있다.
@@ -53,6 +53,7 @@ Right-handed Cordinate System은 이와 반대로, 결과값이 음수라면 p3�
 $$ p_{1}=(x_{1},y_{1}),p_{2}=(x_{2},y_{2}) $$ and
 $$ p_{3}=(x_{3},y_{3}) $$.<br>
 $$ P=(x_{2}-x_{1})(y_{3}-y_{1})-(y_{2}-y_{1})(x_{3}-x_{1}) $$
+
 
 **p1과 p2가 이루는 직선에 대한 p3의 위치**
 

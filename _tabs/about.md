@@ -10,6 +10,13 @@ order: 4
 ## Contact
 Email: ohsj3781@gmail.com
 
+## Language
+- 한국어
+    - 모국어
+- 영어
+    - OPIc IH(Intermediate High) 취득
+        - 2025.07
+
 ## Educations
 - 장훈고등학교
     - 2016.03 - 2019.02
