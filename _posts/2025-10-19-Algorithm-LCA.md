@@ -1,6 +1,6 @@
 ---
 title: "[Alogrithm] LCA(Lowest Common Ancestor) (C/C++)"
-date: 2025-10-09 09:57:00 +0900
+date: 2025-10-19 09:57:00 +0900
 categories: [Algorithm, algorithm]
 tags: [Lowest common ancestors]     # TAG names should always be lowercase
 description: ""
