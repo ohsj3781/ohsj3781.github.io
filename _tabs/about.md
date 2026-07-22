@@ -8,7 +8,7 @@ order: 4
 {: .prompt-tip } -->
 
 ## Contact
-Email: ohsj3781@gmail.com
+- Email: ohsj3781@gmail.com
 
 ## Language
 - 한국어
@@ -33,4 +33,6 @@ Email: ohsj3781@gmail.com
     - 2024.08
 - 삼성전자 SW 역량 테스트 Level B(Pro) 취득
     - 2024.10
-
+- [성균관대학교 소프트웨어학과 연구논문작품 은상 수상](https://swgp.exhb.scg.skku.ac.kr/web-and-application/7aa9857d-d6bd-406e-b75b-b57c172264d4)
+    - 2026.06
+    - 작품명: 스마트폰을 위한 경량 ResNet 기반 사진 자동 태깅 시스템
